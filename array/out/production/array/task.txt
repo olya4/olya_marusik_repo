@@ -1,0 +1,42 @@
+Задание 1.
+Реализовать приложение, которое выводит сумму элементов массива (массив вводится с
+клавиатуры - по одному числу в каждой новой строке).
+class Program {
+public static void main(String args[]) {
+Scanner scanner = new Scanner(System.in);
+int n = scanner.nextInt();
+int array[] = new int[n];
+int arraySum = 0;
+...
+System.out.println(arraySum);
+}
+}
+Задание 2.
+Реализовать приложение, которое выполняет разворот массива (массив вводится с
+клавиатуры - по одному числу в каждой новой строке).
+class Program {
+public static void main(String args[]) {
+Scanner scanner = new Scanner(System.in);
+int n = scanner.nextInt();
+int array[] = new int[n];
+...
+System.out.println(Arrays.toString(array)); // выводится массив
+в зеркальном представлении
+}
+}
+Задание 3.
+Реализовать приложение, которое вычисляет среднее арифметическое элементов массива
+(массив вводится с клавиатуры - по одному в каждой новой строке).
+class Program {
+public static void main(String args[]) {
+Scanner scanner = new Scanner(System.in);
+int n = scanner.nextInt();
+int array[] = new int[n];
+double arrayAverage = 0;
+...
+System.out.println(arrayAverage);
+}
+}
+Задание 4.
+Реализовать приложение, которое меняет местами максимальный и минимальный элементы
+массива (массив вводится с клавиатуры - по одному в каждой новой строке).
