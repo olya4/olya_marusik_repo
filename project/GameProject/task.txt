@@ -1,0 +1,28 @@
+Почти весь проект писал преподаватель.
+Части, которые делала я:
+    Реализовать метод класс PlayersRepositoryFilesImpl с тремя методами:
+    Player findByNickname(String nickname);
+    void save(Player player);
+    void update(Player player);
+    Получение данных должно происходить из файла с заданным fileName.
+    Сохранение игрока должно сопровождаться присваиванием ему какого-либо
+    идентификатора. Гарантировать уникальность идентификаторов (следует
+    использовать подход, реализованный в проекте - сохранение сгенерированного id в
+    отдельном файле).
+    Обновление игрока следует реализовать по следующей логике:
+    - Получение списка всех игроков из файла и сохранение их в список или словарь
+    - Обновление игрока с заданным id
+    - Выгрузка списка/словаря обратно в файл
+
+   Реализовать GamesRepository, PlayersRepository, ShotsRepository
+   с использованием JDBC. Реализовать необходимо все методы, которые были до этого:
+   GamesRepository
+   - void save(Game game);
+   - Game findById(Long gameId);
+   - void update(Game game);
+   ShotsRepository
+   - void save(Shot shot);
+   PlayersRepository
+   - Player findByNickname(String nickname);
+   - void save(Player player);
+   - void update(Player player);
